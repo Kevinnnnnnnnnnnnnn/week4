@@ -1,0 +1,42 @@
+
+  /* location */
+  .location .location-li{
+    border-left: 1px solid #00000020;
+    border-right: 1px solid #00000020;
+    width: 30%;
+  }
+  @media(max-width:768px){
+    .location .location-li{
+      width: 48%;
+    }
+  }
+  @media(max-width:375px){
+    .location .location-li{
+      width: 98%;
+    }
+  }
+  h2.fz-24{
+    border-bottom: 1px solid #00000020;
+    padding: 12px 0px 12px 24px;
+    
+  }
+  .detail{
+    padding:16px 0px;
+  }
+  .button{
+    display: block;
+    background: #000;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 20px;
+  }
+  .button:hover{
+    color:#000000;
+    background: white;
+  }
+  .location{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

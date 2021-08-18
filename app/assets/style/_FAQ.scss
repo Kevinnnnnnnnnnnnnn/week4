@@ -1,0 +1,12 @@
+
+// FAQ響應式
+@media(max-width:768px){
+    .faq-qa p{
+        margin-left: 60px;
+    }
+}
+@media(max-width:375px){
+    .faq-qa p{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,82 @@
+.banner{
+    // max-width: 1920px;
+    height: 840px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner.png");
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.text{
+    margin-right: 10%;
+}
+
+.classic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index .content{
+    text-align: center;
+
+}
+.index .menu{
+    display: flex;
+    justify-content: center;
+}
+.index .item{
+    width: 255px;
+}
+
+.design{
+    height: 705px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png");
+    padding-top: 60px;
+    text-align: center;
+}
+.design h2{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.pic1{
+    height: 455px;
+    width: 540px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-8.png");
+    background-color: rgba(255, 255, 255, 0.5); background-blend-mode: overlay;
+}
+.pic2{
+    height: 455px;
+    width: 540px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-9.png");
+    background-color: rgba(255, 255, 255, 0.5); background-blend-mode: overlay;
+}
+
+.recommendation h2{
+    text-align: center;
+}
+.recommendation li{
+    width: 255px;
+    border: 1px solid #DEE2E6;
+}
+
+
+.form{
+    margin: 0 auto;
+    width: 730px;
+}
+.form h2{
+    text-align: center; 
+}
+
+.button-submit{
+    
+    background: #aa0601;
+    color: white;
+    width: 350px;
+    height: 54px;
+    margin: 40px 0px;
+}
